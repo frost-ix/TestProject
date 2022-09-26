@@ -5,10 +5,12 @@ public class Main
     public static void main(String[] argc)
     {
         int size = 0;
+        System.out.print("Input Size >> ");
         Battery_time.setData_size(size);
         System.out.println("Now battery cycle : " + Battery_time.getBattery_cycle());
         if (Battery_time.battery_cycle == 1)
         {
+            System.out.print("Input now Battery status >> ");
             Battery_time.setData();
             System.out.println("Battery Cycle is just 1.");
             System.out.println("Now Battery : " + Battery_time.getNow());
