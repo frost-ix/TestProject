@@ -1,4 +1,3 @@
-package src;
 import java.lang.String;
 
 public class Main
